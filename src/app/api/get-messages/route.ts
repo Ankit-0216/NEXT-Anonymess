@@ -40,7 +40,7 @@ export async function GET(request: Request) {
       return Response.json(
         {
           success: false,
-          message: "User not found",
+          message: "User not found or No messages found",
         },
         { status: 401 }
       );
